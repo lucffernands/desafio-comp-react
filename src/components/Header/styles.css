@@ -1,0 +1,13 @@
+header {
+    height: 70px;
+    background-color: var(--dsct-color-blue);
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--dsct-color-white);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
