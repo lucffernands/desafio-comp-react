@@ -1,25 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-  
+
 :root {
-      --dsct-color-white: #FFFFFF;
-      --dsct-color-greylight: #C8C8C8;
-      --dsct-color-greydark: #5E5E5E;
-      --dsct-color-blue: #3C9AF0;
-     
-    }
-    
-    * {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-    }
+  --dsct-color-white: #FFFFFF;
+  --dsct-color-greylight: #C8C8C8;
+  --dsct-color-greydark: #5E5E5E;
+  --dsct-color-blue: #3C9AF0;
+}
 
-  html {
-    background-color: var(--dsct-color-white);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  background-color: var(--dsct-color-white);
+}
+
+.dsct-container {
+  width: 100%;
+}
+
+/*----------------(Header Styles)---------------*/
+@media (min-width: 320px) {
+  header h1 {
+    font-size: 24px;
+  }
+}
+
+/*----------------(CardCar Styles)---------------*/
+@media (min-width: 450px) {
+  .dsct-card-title h3 {
+    font-size: 32px;
   }
 
-  .dsct-container {
-    width: 100%;
-    max-width: 1200px;
+  .dsct-card-car img {
+    width: 390px;
+    height: 290px;
   }
+
+  .dsct-card-car p {
+    font-size: 20px;
+  }
+}

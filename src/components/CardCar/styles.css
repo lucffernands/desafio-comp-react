@@ -1,0 +1,22 @@
+.dsct-card-car {
+    border: 1px solid var(--dsct-color-blue);
+    border-radius: 10px; 
+    min-width: 280px;
+    max-width: 746px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.dsct-card-car img {
+    width: 260px;
+    height: 195px;
+}
+
+.dsct-card-car p {
+   color: var(--dsct-color-greydark); 
+   font-weight: 700;
+   font-size: 16px;
+   margin: 10px;
+}
