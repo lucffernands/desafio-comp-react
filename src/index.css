@@ -14,12 +14,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
-  background-color: var(--dsct-color-white);
-}
-
 .dsct-container {
   width: 100%;
+}
+
+#dsct-card-comment {
+  background-color: var(--dsct-color-greylight);
+
 }
 
 /*----------------(Header Styles)---------------*/
@@ -31,16 +32,29 @@ html {
 
 /*----------------(CardCar Styles)---------------*/
 @media (min-width: 450px) {
-  .dsct-card-title h3 {
+  .dsct-card-car-container h3 {
     font-size: 32px;
   }
 
-  .dsct-card-car img {
+  .dsct-card-car-details img {
     width: 390px;
     height: 290px;
   }
 
-  .dsct-card-car p {
+  .dsct-card-car-details p {
     font-size: 20px;
   }
+}
+
+/*----------------(CardComment Styles)---------------*/
+@media (min-width: 450px) {
+  .dsct-card-comment-container h3 {
+    font-size: 32px;
+  }
+
+  .dsct-card-comment-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
 }

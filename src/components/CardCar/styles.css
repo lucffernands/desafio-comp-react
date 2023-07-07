@@ -1,4 +1,4 @@
-.dsct-card-car {
+.dsct-card-car-details {
     border: 1px solid var(--dsct-color-blue);
     border-radius: 10px; 
     min-width: 280px;
@@ -9,12 +9,12 @@
     margin-top: 25px;
 }
 
-.dsct-card-car img {
+.dsct-card-car-details img {
     width: 260px;
     height: 195px;
 }
 
-.dsct-card-car p {
+.dsct-card-car-details p {
    color: var(--dsct-color-greydark); 
    font-weight: 700;
    font-size: 16px;

@@ -2,17 +2,14 @@
     min-width: 320px;
 }
 
-.dsct-main-container {
-    padding: 25px 20px;
-}
-
 .dsct-card-car-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 20px;
 }
 
-.dsct-card-title h3 {
+.dsct-card-car-container h3 {
     font-weight: 700;
     font-size: 20px;
     color: var(--dsct-color-greydark);
@@ -20,3 +17,18 @@
     flex-direction: column;
     align-items: center;
 }
+
+.dsct-card-comment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 20px;
+}
+
+.dsct-card-comment-container h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dsct-color-greydark);
+    margin: 25px;
+}
+

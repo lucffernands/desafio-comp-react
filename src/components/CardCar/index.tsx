@@ -5,7 +5,7 @@ export default function CardCar() {
 
     return (
         <>
-            <div className="dsct-card-car dsct-container">
+            <div className="dsct-card-car-details dsct-container">
                 <img src={carImg} alt="Carro" />
                 <p>Lorem ipsum dolor</p>
             </div>
