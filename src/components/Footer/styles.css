@@ -1,0 +1,22 @@
+footer {
+    background-color: var(--dsct-color-blue);
+    height: 120px;
+    font-size: 16px;
+    color: var(--dsct-color-white);
+    padding: 0 120px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dsct-footer-details {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.dsct-footer-details a {
+    text-decoration: none; 
+    color: var(--dsct-color-white);
+ }

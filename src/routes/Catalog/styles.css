@@ -1,12 +1,12 @@
-.dsct-main-container {
-    min-width: 320px;
+#dsct-card-car {
+    padding: 0 20px;
 }
 
 .dsct-card-car-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 25px 20px;
+    align-items: center;  
+    margin: 25px 0;
 }
 
 .dsct-card-car-container h3 {
@@ -18,11 +18,16 @@
     align-items: center;
 }
 
+#dsct-card-comment {
+    background-color: var(--dsct-color-greylight);
+   }
+
 .dsct-card-comment-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 25px 20px;
+    padding: 0 20px;
+    
 }
 
 .dsct-card-comment-container h3 {

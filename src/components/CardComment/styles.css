@@ -4,8 +4,7 @@
     margin-bottom: 25px;
     border: 1px solid var(--dsct-color-blue);
     border-radius: 12px; 
-    max-width: 960px;
-    width: 100%;
+    
 }
 
 .dsct-card-comment-details p {

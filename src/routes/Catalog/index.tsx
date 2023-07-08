@@ -2,12 +2,14 @@ import './styles.css';
 import Header from "../../components/Header";
 import CardCar from '../../components/CardCar';
 import CardComment from '../../components/CardComment';
+import Footer from '../../components/Footer';
 
 export default function Catalog() {
 
     return (
         <>
             <Header />
+
             <main>
                 <section id="dsct-card-car">
                     <div className="dsct-card-car-container">
@@ -28,6 +30,8 @@ export default function Catalog() {
                     </div>
                 </section>
             </main>
+            
+            <Footer />
         </>
     );
 }
